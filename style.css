@@ -1,13 +1,13 @@
 body {
     background-image: 
-        linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7)), 
+        linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
         url("cake/IMG_5021.jpg");
     
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
     
-    color: #333 !; 
+    color: white !important; 
     font-family: "Helvetica", Arial, sans-serif;
     margin: 0;
     padding: 40px 20px;
