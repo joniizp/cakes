@@ -1,12 +1,16 @@
 body {
-    background-image: url("cake/IMG_5021.jpg");
+    /* Force the image to show */
+    background-image: url("cake/IMG_5021.jpg") !important; 
     background-size: cover;
-    background-attachment: fixed;
     background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
 
+    /* Change the color to black so if the image fails, it's not white */
+    background-color: black !important; 
+    
     font-family: "Helvetica", Arial, sans-serif;
     color: white;
-    
     margin: 0;
     padding: 40px 20px;
     text-align: center;
