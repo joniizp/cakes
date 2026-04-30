@@ -1,16 +1,14 @@
 body {
-    /* Force the image to show */
-    background-image: url("cake/IMG_5021.jpg") !important; 
+    background-image: 
+        linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7)), 
+        url("cake/IMG_5021.jpg");
+    
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
-    background-repeat: no-repeat;
-
-    /* Change the color to black so if the image fails, it's not white */
-    background-color: black !important; 
     
+    color: #333 !; 
     font-family: "Helvetica", Arial, sans-serif;
-    color: white;
     margin: 0;
     padding: 40px 20px;
     text-align: center;
