@@ -1,13 +1,15 @@
 body {
     background-image: 
-        linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9)), 
+        linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)), 
         url("cake/IMG_5021.jpg");
     
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
-    
-    color: #111 !important;
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px); 
+
+    color: #222 !important; 
     font-family: "Helvetica", Arial, sans-serif;
     margin: 0;
     padding: 40px 20px;
