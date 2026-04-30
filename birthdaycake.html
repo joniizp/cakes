@@ -7,25 +7,25 @@
 
     .gallery {
         display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        gap: 20px;
+        flex-direction: column; /* This stacks them vertically */
+        align-items: center;    /* This centers the stack */
+        gap: 40px;              /* Adds more space between each photo */
     }
 
     .gallery-item {
-        width: 300px; /* Adjust this to make the images smaller or larger */
+        width: 80%;             /* Makes them much larger */
+        max-width: 800px;       /* Prevents them from getting "stretched" on huge monitors */
     }
 
     .gallery-item img {
-        width: 100%;  /* Makes image fill the 300px container */
-        height: auto; /* Keeps the aspect ratio */
-        border-radius: 8px; /* Optional: rounds the corners */
+        width: 100%;
+        height: auto;
+        border-radius: 4px;
     }
 
     .label {
-        margin-top: 8px;
-        font-size: 14px;
-        color: #333;
+        margin-top: 10px;
+        font-weight: bold;
     }
 </style>
 
