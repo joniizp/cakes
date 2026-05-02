@@ -1,0 +1,59 @@
+    <title>galentine's cake</title>
+      <link rel="stylesheet" href="style.css">
+<style>
+    body {
+        font-family: "Helvetica", Arial, sans-serif;
+        text-align: center;
+        margin: 20px;
+    }
+
+    .gallery {
+        display: flex;
+        flex-direction: column; /* This stacks them vertically */
+        align-items: center;    /* This centers the stack */
+        gap: 40px;              /* Adds more space between each photo */
+    }
+
+    .gallery-item {
+        width: 80%;             /* Makes them much larger */
+        max-width: 800px;       /* Prevents them from getting "stretched" on huge monitors */
+    }
+
+    .gallery-item img {
+        width: 100%;
+        height: auto;
+        border-radius: 4px;
+    }
+
+    .label {
+        margin-top: 10px;
+        font-weight: bold;
+    }
+</style>
+
+<body>
+    <header>
+        <a href="index.html" style="text-decoration: none; color: #666;">← Back to Main</a>
+        <h1>Galentine's cake</h1>
+        <!-- This is your brief description of all photos within this folder -->
+        <p style="max-width: 600px; margin: 0 auto 50px auto;">
+          vegan earl grey cake + soak, blackberry thyme compote, and lemon swiss meringue buttercream.
+    </header>
+
+    <div class="gallery">
+        <!-- Sub-gallery items go here -->
+        <div class="gallery-item">
+            <img src="cake/feb.JPG">
+        </div>
+        <div class="gallery-item">
+            <img src="cake/feb2.JPG">
+        </div>
+          <div class="gallery">
+        <div class="gallery-item">
+            <img src="cake/feb3.JPG">
+        </div>
+                    <div class="gallery-item">
+            <img src="cake/feb4.JPG">
+        </div>
+    </div>
+</body>
