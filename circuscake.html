@@ -1,0 +1,58 @@
+    <title>circus cake</title>
+      <link rel="stylesheet" href="style.css">
+<style>
+    body {
+        font-family: "Helvetica", Arial, sans-serif;
+        text-align: center;
+        margin: 20px;
+    }
+
+    .gallery {
+        display: flex;
+        flex-direction: column; /* This stacks them vertically */
+        align-items: center;    /* This centers the stack */
+        gap: 40px;              /* Adds more space between each photo */
+    }
+
+    .gallery-item {
+        width: 80%;             /* Makes them much larger */
+        max-width: 800px;       /* Prevents them from getting "stretched" on huge monitors */
+    }
+
+    .gallery-item img {
+        width: 100%;
+        height: auto;
+        border-radius: 4px;
+    }
+
+    .label {
+        margin-top: 10px;
+        font-weight: bold;
+    }
+</style>
+
+<body>
+    <header>
+        <a href="index.html" style="text-decoration: none; color: #666;">← Back to Main</a>
+        <h1>Circus cake</h1>
+        <!-- This is your brief description of all photos within this folder -->
+        <p style="max-width: 600px; margin: 0 auto 50px auto;">
+            earl gray cake + soak, blackberry lychee compote, black sesame mascarpone whip, and vanilla bean swiss meringue buttercream. 
+    </header>
+
+    <div class="gallery">
+        <!-- Sub-gallery items go here -->
+        <div class="gallery-item">
+            <img src="cake/brown butter 4.jpg">
+        </div>
+        <div class="gallery-item">
+            <img src="cake/brown butter.jpg">
+        </div>
+        <div class="gallery-item">
+            <img src="cake/brown butter 3.jpg">
+        </div>
+        <div class="gallery-item">
+            <img src="cake/brown butter 2.jpg">
+        </div>
+    </div>
+</body>
