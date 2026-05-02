@@ -1,0 +1,62 @@
+    <title>matcha pink velvet cake</title>
+      <link rel="stylesheet" href="style.css">
+<style>
+    body {
+        font-family: "Helvetica", Arial, sans-serif;
+        text-align: center;
+        margin: 20px;
+    }
+
+    .gallery {
+        display: flex;
+        flex-direction: column; /* This stacks them vertically */
+        align-items: center;    /* This centers the stack */
+        gap: 40px;              /* Adds more space between each photo */
+    }
+
+    .gallery-item {
+        width: 80%;             /* Makes them much larger */
+        max-width: 800px;       /* Prevents them from getting "stretched" on huge monitors */
+    }
+
+    .gallery-item img {
+        width: 100%;
+        height: auto;
+        border-radius: 4px;
+    }
+
+    .label {
+        margin-top: 10px;
+        font-weight: bold;
+    }
+</style>
+
+<body>
+    <header>
+        <a href="index.html" style="text-decoration: none; color: #666;">← Back to Main</a>
+        <h1>Matcha and Pink Velvet cake</h1>
+        <!-- This is your brief description of all photos within this folder -->
+        <p style="max-width: 600px; margin: 0 auto 50px auto;">
+         matcha and pink velvet chiffon, strawberry compote + fresh strawberry slices, whipped matcha ganache and whipped cream cheese frosting.
+    </header>
+
+    <div class="gallery">
+        <!-- Sub-gallery items go here -->
+        <div class="gallery-item">
+            <img src="cake/matcha5.jpg">
+        </div>
+        <div class="gallery-item">
+            <img src="cake/matcha.jpg">
+        </div>
+          <div class="gallery">
+        <div class="gallery-item">
+            <img src="cake/matcha2.jpg">
+        </div>
+        <div class="gallery-item">
+            <img src="cake/matcha3.jpg">
+        </div>
+        <div class="gallery-item">
+            <img src="cake/matcha4.jpg">
+        </div>
+    </div>
+</body>
